@@ -126,8 +126,7 @@ function drawBricks() {
     if (x > paddleX && x < paddleX + paddleWidth) {
     dy = -dy;
     } else {
-    alert("Game Over");
-    document.location.reload();
+        reload();
     }
     }
     
